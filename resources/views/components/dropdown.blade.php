@@ -25,6 +25,7 @@ switch ($width) {
     <div @click="open = ! open">
         {{ $trigger }}
     </div>
+    
 
     <div x-show="open"
             x-transition:enter="transition ease-out duration-200"

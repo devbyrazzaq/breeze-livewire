@@ -9,7 +9,8 @@
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div class="grid grid-cols-3 gap-4">
                     <div class="col-span-2">
-                    <livewire:tasks.tasks-list />
+                        <livewire:tasks.tasks-list lazy/>
+                    </div>
                     <livewire:tasks.tasks-form />
                 </div>
             </div>
